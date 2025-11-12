@@ -36,7 +36,7 @@ const Units = () => {
       </TabPanel>
       <TabPanel>
         <h2>Any content 2</h2>
-        {/* <KryComponent value={value} /> */}
+        {<KryComponent value={value} />}
       </TabPanel>
       <TabPanel>
         <h2>Any content 3</h2>
