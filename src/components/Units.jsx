@@ -4,6 +4,7 @@ import "react-tabs/style/react-tabs.css";
 import KryComponent from "./KryComponent/KryComponent.jsx";
 import { MakComponent } from "./MakComponent/component.jsx";
 import DomComponent from "./DomComponent/DomComponent.jsx";
+import JakComponent from "./JakComponent/JakComponent.jsx";
 
 const Units = () => {
   const [value, setValue] = useState(0);
@@ -38,7 +39,7 @@ const Units = () => {
       </TabPanel>
       <TabPanel>
         <h2>Any content 3</h2>
-        {/* <KubComponent value={value} /> */}
+        { <JakComponent value={value} /> }
       </TabPanel>
       <TabPanel>
         <h2>Any content 4</h2>
