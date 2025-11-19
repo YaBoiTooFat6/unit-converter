@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
-
+import OliComponent from "./OliComponent/OliComponent.jsx"
 const Units = () => {
 
     const [value, setValue] = useState(0);
@@ -23,7 +23,7 @@ const Units = () => {
 
             <TabPanel>
             <h2>Any content 1 {value}</h2>
-                {/* <OliComponent value={value} /> */}
+                {<OliComponent value={value} /> }
             </TabPanel>
             <TabPanel>
             <h2>Any content 2</h2>
